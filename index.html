@@ -7,7 +7,7 @@
         <meta name="description" content="List This">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="cleartype" content="on">
 
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
@@ -16,9 +16,9 @@
         <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
         <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
 
-        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- Tile icon for Win8 (144x144 + tile color) 
         <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
-        <meta name="msapplication-TileColor" content="#222222">
+        <meta name="msapplication-TileColor" content="#222222">-->
 
 
         <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
@@ -38,28 +38,26 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+    
+        
 
         <div id="wrapper">
             <div id="topbar">
                 <a href="#" class="square sidebar"><i>Toggle</i></a>
                 <div id="topbar-title" class="title">My Feed</div>
-                <a href="#" class="square new"><i>Toggle</i></a>
+                <a href="#" class="square new"><i>New</i></a>
             </div><!-- #topbar -->
 
             <div id="content">
-
+                <div id="setup">
+                    
+                </div>
             </div><!-- #content -->
         </div><!-- #wrapper -->
 
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
+        <!--<script src="js/retina.js"></script>-->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-            g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-            s.parentNode.insertBefore(g,s)}(document,"script"));
-        </script>
     </body>
 </html>
