@@ -38,25 +38,35 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-    
-        
+        <div id="container" class="initial">
+            <div id="sidebar">
+                <header>
+                    <h1 id="logo"><i data-tooltip="nw" original-title=""></i><span>supercold</span></h1>
+                </header>
 
-        <div id="wrapper">
-            <div id="topbar">
-                <a href="#" class="square sidebar"><i>Toggle</i></a>
-                <div id="topbar-title" class="title">My Feed</div>
-                <a href="#" class="square new"><i>New</i></a>
-            </div><!-- #topbar -->
-
-            <div id="content">
-                <div id="setup">
-                    
+                <!--<ul>
+                    <li><div class="">a</div>My Feed</li>
+                    <li><div class="">b</div>Starred</li>
+                    <li><div class="">c</div>Articles</li> 
+                    <li><div class="">d</div>Movies</li> 
+                    <li><div class="">e</div>Music</li> 
+                </ul>-->
+            </div><div id="main">
+                <div id="header">
+                    <a id="sidebtn" class="square icon"><i>Toggle</i></a>
+                    <a id="newbtn" class="new icon"><i>New</i></a>
+                    <div class="title">My Feed</div>
                 </div>
-            </div><!-- #content -->
-        </div><!-- #wrapper -->
+
+                <div id="content">
+                    Content
+                </div>
+            </div>
+        </div>
 
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
+        <script src="js/sidebar.js"></script>
         <!--<script src="js/retina.js"></script>-->
 
     </body>
